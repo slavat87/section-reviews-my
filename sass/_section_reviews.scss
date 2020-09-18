@@ -134,6 +134,11 @@
     & img {
       display: block;
     }
+    
+    .girl-img .img:hover,
+    .girl-img .img:focus{
+    border: 5px solid $accent-color;
+}
   }
 
   .reviews-img-list::after {
@@ -332,6 +337,11 @@
   .girl-img:last-child {
     margin-right: 0;
   }
+  
+  .girl-img .img:hover,
+  .girl-img .img:focus{
+    border: 5px solid $accent-color;
+}
 }
 
 @media screen and (min-width: 1320px) {
