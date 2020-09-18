@@ -1,4 +1,5 @@
-.img:hover {
+.girl-img .img:hover,
+.girl-img .img:focus{
   border: 5px solid $accent-color;
 }
 
